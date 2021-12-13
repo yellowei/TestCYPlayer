@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		998D7C158A606BE23DA5BF04 /* libPods-TestCYFFmpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B27669BF3D6BEB147E0F1C5 /* libPods-TestCYFFmpeg.a */; };
+		BCCFD27027675BBE004FF4BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCFD26F27675BBE004FF4BC /* AppDelegate.m */; };
+		BCCFD27327675BBE004FF4BC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCFD27227675BBE004FF4BC /* SceneDelegate.m */; };
+		BCCFD27627675BBE004FF4BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCFD27527675BBE004FF4BC /* ViewController.m */; };
+		BCCFD27927675BBE004FF4BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCCFD27727675BBE004FF4BC /* Main.storyboard */; };
+		BCCFD27B27675BC0004FF4BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCCFD27A27675BC0004FF4BC /* Assets.xcassets */; };
+		BCCFD27E27675BC0004FF4BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCCFD27C27675BC0004FF4BC /* LaunchScreen.storyboard */; };
+		BCCFD28127675BC0004FF4BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCFD28027675BC0004FF4BC /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		99B06C3F06A000E8B100CE38 /* Pods-TestCYFFmpeg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCYFFmpeg.debug.xcconfig"; path = "Target Support Files/Pods-TestCYFFmpeg/Pods-TestCYFFmpeg.debug.xcconfig"; sourceTree = "<group>"; };
+		9B27669BF3D6BEB147E0F1C5 /* libPods-TestCYFFmpeg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestCYFFmpeg.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCCFD26B27675BBE004FF4BC /* TestCYFFmpeg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCYFFmpeg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCCFD26E27675BBE004FF4BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCCFD26F27675BBE004FF4BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCCFD27127675BBE004FF4BC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BCCFD27227675BBE004FF4BC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BCCFD27427675BBE004FF4BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BCCFD27527675BBE004FF4BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCCFD27827675BBE004FF4BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCCFD27A27675BC0004FF4BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCCFD27D27675BC0004FF4BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCCFD27F27675BC0004FF4BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCCFD28027675BC0004FF4BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCCFD287276765F0004FF4BC /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		C39889E5BF66531B04AEFE78 /* Pods-TestCYFFmpeg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCYFFmpeg.release.xcconfig"; path = "Target Support Files/Pods-TestCYFFmpeg/Pods-TestCYFFmpeg.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCCFD26827675BBE004FF4BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998D7C158A606BE23DA5BF04 /* libPods-TestCYFFmpeg.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		605E89BC4F2253CA3AA06339 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99B06C3F06A000E8B100CE38 /* Pods-TestCYFFmpeg.debug.xcconfig */,
+				C39889E5BF66531B04AEFE78 /* Pods-TestCYFFmpeg.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BCCFD26227675BBE004FF4BC = {
+			isa = PBXGroup;
+			children = (
+				BCCFD26D27675BBE004FF4BC /* TestCYFFmpeg */,
+				BCCFD26C27675BBE004FF4BC /* Products */,
+				605E89BC4F2253CA3AA06339 /* Pods */,
+				E6A03CCA3C29E68784985023 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BCCFD26C27675BBE004FF4BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCCFD26B27675BBE004FF4BC /* TestCYFFmpeg.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCCFD26D27675BBE004FF4BC /* TestCYFFmpeg */ = {
+			isa = PBXGroup;
+			children = (
+				BCCFD26E27675BBE004FF4BC /* AppDelegate.h */,
+				BCCFD26F27675BBE004FF4BC /* AppDelegate.m */,
+				BCCFD27127675BBE004FF4BC /* SceneDelegate.h */,
+				BCCFD27227675BBE004FF4BC /* SceneDelegate.m */,
+				BCCFD27427675BBE004FF4BC /* ViewController.h */,
+				BCCFD27527675BBE004FF4BC /* ViewController.m */,
+				BCCFD27727675BBE004FF4BC /* Main.storyboard */,
+				BCCFD27A27675BC0004FF4BC /* Assets.xcassets */,
+				BCCFD27C27675BC0004FF4BC /* LaunchScreen.storyboard */,
+				BCCFD27F27675BC0004FF4BC /* Info.plist */,
+				BCCFD28027675BC0004FF4BC /* main.m */,
+			);
+			path = TestCYFFmpeg;
+			sourceTree = "<group>";
+		};
+		E6A03CCA3C29E68784985023 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCCFD287276765F0004FF4BC /* libc++.tbd */,
+				9B27669BF3D6BEB147E0F1C5 /* libPods-TestCYFFmpeg.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCCFD26A27675BBE004FF4BC /* TestCYFFmpeg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCCFD28427675BC0004FF4BC /* Build configuration list for PBXNativeTarget "TestCYFFmpeg" */;
+			buildPhases = (
+				D94F8D0B035FF919E636B4DD /* [CP] Check Pods Manifest.lock */,
+				BCCFD26727675BBE004FF4BC /* Sources */,
+				BCCFD26827675BBE004FF4BC /* Frameworks */,
+				BCCFD26927675BBE004FF4BC /* Resources */,
+				31EFD8C86381ADCC3AE39A18 /* [CP] Embed Pods Frameworks */,
+				B5B2190D854C55C7D40A663C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestCYFFmpeg;
+			productName = TestCYFFmpeg;
+			productReference = BCCFD26B27675BBE004FF4BC /* TestCYFFmpeg.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCCFD26327675BBE004FF4BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					BCCFD26A27675BBE004FF4BC = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = BCCFD26627675BBE004FF4BC /* Build configuration list for PBXProject "TestCYFFmpeg" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCCFD26227675BBE004FF4BC;
+			productRefGroup = BCCFD26C27675BBE004FF4BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCCFD26A27675BBE004FF4BC /* TestCYFFmpeg */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCCFD26927675BBE004FF4BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCFD27E27675BC0004FF4BC /* LaunchScreen.storyboard in Resources */,
+				BCCFD27B27675BC0004FF4BC /* Assets.xcassets in Resources */,
+				BCCFD27927675BBE004FF4BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31EFD8C86381ADCC3AE39A18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestCYFFmpeg/Pods-TestCYFFmpeg-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestCYFFmpeg/Pods-TestCYFFmpeg-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestCYFFmpeg/Pods-TestCYFFmpeg-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5B2190D854C55C7D40A663C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestCYFFmpeg/Pods-TestCYFFmpeg-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestCYFFmpeg/Pods-TestCYFFmpeg-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestCYFFmpeg/Pods-TestCYFFmpeg-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D94F8D0B035FF919E636B4DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestCYFFmpeg-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCCFD26727675BBE004FF4BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCFD27627675BBE004FF4BC /* ViewController.m in Sources */,
+				BCCFD27027675BBE004FF4BC /* AppDelegate.m in Sources */,
+				BCCFD28127675BC0004FF4BC /* main.m in Sources */,
+				BCCFD27327675BBE004FF4BC /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BCCFD27727675BBE004FF4BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCCFD27827675BBE004FF4BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCCFD27C27675BC0004FF4BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCCFD27D27675BC0004FF4BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCCFD28227675BC0004FF4BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCCFD28327675BC0004FF4BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCCFD28527675BC0004FF4BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99B06C3F06A000E8B100CE38 /* Pods-TestCYFFmpeg.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Z49MWW88D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestCYFFmpeg/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dental360.doctor.TestCYFFmpeg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCCFD28627675BC0004FF4BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C39889E5BF66531B04AEFE78 /* Pods-TestCYFFmpeg.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Z49MWW88D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestCYFFmpeg/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dental360.doctor.TestCYFFmpeg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCCFD26627675BBE004FF4BC /* Build configuration list for PBXProject "TestCYFFmpeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCFD28227675BC0004FF4BC /* Debug */,
+				BCCFD28327675BC0004FF4BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCCFD28427675BC0004FF4BC /* Build configuration list for PBXNativeTarget "TestCYFFmpeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCFD28527675BC0004FF4BC /* Debug */,
+				BCCFD28627675BC0004FF4BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCCFD26327675BBE004FF4BC /* Project object */;
+}

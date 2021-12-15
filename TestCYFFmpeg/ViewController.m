@@ -50,7 +50,7 @@
     }];
 
     vc1.autoplay = YES;
-    vc1.generatPreviewImages = NO;
+    vc1.generatPreviewImages = YES;
     [self.contentView addSubview:vc1.view];
     //播放器视图添加到父视图之后,一定要设置播放器视图的frame,不然会导致opengl无法渲染以致播放失败
     [vc1.view mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -63,6 +63,29 @@
 - (void)dealloc
 {
     [vc1 stop];//记得要停止播放
+}
+
+
+# pragma mark - 系统横竖屏切换调用
+
+- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator
+{
+    if (size.width > size.height)
+    {
+        [self.contentView mas_remakeConstraints:^(MASConstraintMaker *make) {
+            make.top.bottom.equalTo(@(0));
+            make.left.equalTo(@(0));
+            make.right.equalTo(@(0));
+        }];
+    }
+    else
+    {
+        [self.contentView mas_remakeConstraints:^(MASConstraintMaker *make) {
+            make.center.offset(0);
+            make.leading.trailing.offset(0);
+            make.height.equalTo(self.contentView.mas_width).multipliedBy(9.0 / 16.0);
+        }];
+    }
 }
 
 
